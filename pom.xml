@@ -11,6 +11,8 @@
     <modules>
         <module>cloud_config</module>
         <module>cloud_config_client</module>
+        <module>cloud_config_server_8001</module>
+        <module>cloud_config_client_8002</module>
     </modules>
 
     <dependencyManagement>

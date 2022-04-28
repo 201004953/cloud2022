@@ -1,0 +1,18 @@
+server:
+  port: 8002
+
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+people:
+  id: null
+  name: null
+  age: null
+
+

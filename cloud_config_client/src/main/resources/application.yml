@@ -1,0 +1,16 @@
+server:
+  port: 8990
+
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+name: null
+
+config:
+  info: null
