@@ -7,3 +7,4 @@
 /cloud_config_client_8002/cloud_config_client_8002.iml
 /cloud_config_client_8002/target
 /cloud_config_server_8001/*.iml
+/cloud_config_server_8001/target

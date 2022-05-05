@@ -19,6 +19,9 @@ public class Controller01 {
     @Value("${people.age}")
     private Integer age;
 
+    @Value("${local.fileName}")
+    private String localFileName;
+
     @GetMapping("/people01")
     public People getPeople01() {
         return people;
@@ -32,5 +35,10 @@ public class Controller01 {
     @GetMapping("/age")
     public Integer getAge() {
         return age;
+    }
+
+    @GetMapping("/file")
+    public String getLocalFileName() {
+        return localFileName;
     }
 }

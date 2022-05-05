@@ -1,6 +1,11 @@
+#spring:
+#  profiles:
+#    active: prod
+
+#以下配置将使用本地配置文件
 spring:
   profiles:
-    active: prod
+    active: native
 ---
 spring:
   profiles: prod
@@ -21,4 +26,15 @@ spring:
     config:
       uri: http://localhost:8001
       profile: test
+      label: master
+
+---
+spring:
+  profiles: native
+  application:
+    name: config
+  cloud:
+    config:
+      uri: http://localhost:8001
+      profile: prod
       label: master

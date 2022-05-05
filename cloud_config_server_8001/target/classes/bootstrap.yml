@@ -1,8 +1,0 @@
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          search-paths: config-server
-          uri: https://github.com/201004953/config-server.git
-          default-label: master

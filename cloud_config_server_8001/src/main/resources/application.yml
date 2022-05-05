@@ -2,5 +2,12 @@ server:
   port: 8001
 
 spring:
+  profiles:
+    active: native
   application:
     name: ConfigServer8001
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///G:/SpringConfigFiles/config-repo
